@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+}
+.word {
+  background-color: rgb(240, 240, 247);
+
+  width: 100%;
+  height: 100%;
+}
+.word__sky {
+  background-color: rgb(140, 171, 233);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50%;
+}
+.word__earth {
+  background-color: saddlebrown;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+}
+.config-conteiner {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  z-index: index 1;
+}
+.action-conteiner {
+  width: 250px;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.action-conteiner button {
+  width: 150px;
+  height: 50px;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+.action-conteiner button {
+  background-color: white;
+  color: black;
+  border: 2px solid #77afde;
+}
+
+.action-conteiner button:hover {
+  background-color: steelblue;
+  color: white;
+}
+.action-conteiner {
+  justify-content: space-between;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.bottom-menu {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  background-color: darkgreen;
+}
+/*oculto por el momento*/
+ul {
+  display: none;
+}
