@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./index.css";
+import Nube from "../../assets/img/nube.png";
 
 const Word = () => {
   const [state, setState] = useState({
@@ -30,6 +31,7 @@ const Word = () => {
       <main>
         <div className="word">
           <div className="word__sky">cielo</div>
+          <img src={Nube} alt="nube" className="Nube" />
           <div className="word__earth">tierra</div>
         </div>
 
